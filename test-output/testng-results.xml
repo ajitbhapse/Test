@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="4586" started-at="2022-06-21T10:50:33Z" finished-at="2022-06-21T10:50:38Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="4586" started-at="2022-06-21T10:50:33Z" finished-at="2022-06-21T10:50:38Z">
+      <class name="com.org.a.Go">
+        <test-method status="PASS" signature="printLinks()[pri:0, instance:com.org.a.Go@1a04f701]" name="printLinks" duration-ms="4573" started-at="2022-06-21T16:20:33Z" finished-at="2022-06-21T16:20:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printLinks -->
+      </class> <!-- com.org.a.Go -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,3 +1,4 @@
+package com.org.a;
 import java.util.List;
 
 import org.openqa.selenium.By;
@@ -13,10 +14,9 @@ public class Go {
 	
 	WebDriver driver ;
 	
-	
+	@Test
 	public void printLinks() {
-		if(System.getProperty("BrowserName").equals("Chrome")) {
-			System.out.println(System.getProperty("BrowserName"));
+		if(System.getProperty("browserName").equals("Chrome")) {
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
 		}
@@ -29,10 +29,5 @@ public class Go {
 		WebElement ourProducts = driver.findElement(By.xpath("//li[text()='our products']//parent::ul"));
 		List<WebElement> linksOurProducts =  ourProducts.findElements(By.tagName("a"));
 		System.out.println(linksOurProducts.size());  
-	}
-
-	public static void main(String[] args) {
-		Go go = new Go();
-		go.printLinks();
 	}
 }
